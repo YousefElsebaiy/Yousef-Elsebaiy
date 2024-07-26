@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="shortcut icon" href="img/20240117_134918-modified.png" type="image/x-icon">
+    <link rel="stylesheet" href="sass/style.css">
+</head>
+<body>
+    <!-- main div -->
+    <main>
+        <!-- header -->
+        <header>
+            <!-- navbar -->
+            <nav>
+                <!-- logo -->
+                <div class="title">
+                    <h2>yousef</h2>
+                </div>
+                <!-- menu -->
+                <div class="menu">
+                    <p>home</p>
+                    <p>about</p>
+                    <p>skills</p>
+                    <p>project</p>
+                    <p>contact</p>
+                </div>
+                <!-- social media link -->
+                <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </nav>
+        </header>
+        <!-- home section -->
+        <section class="home">
+            <!-- left page content -->
+            <div class="left">
+                <!-- img div -->
+                <div class="img">
+                    <img src="img/20240117_134918-modified.png" alt="">
+                </div>
+                <p>hello, i'm <br> <span id="auto"></span></p>
+                <p>i make website and protoflio</p>
+                <button class="btn"> about me </button>
+            </div>
+            <!-- right div animation -->
+            <div class="right"></div>
+        </section>
+        <!-- about section -->
+    </main>
+    <!-- loader -->
+    <section class="load">
+        <div class="loader"></div>
+    </section>
+    <!-- lottie script -->
+    <script src="js/lottie.min.js"></script>
+    <!-- typed script -->
+    <script src="js/typed.umd.js"></script>
+    <!-- typed script -->
+    <script>
+        let typed = new Typed("#auto",{
+            strings : ["yousef el-sebaiy", "front-end developer"],
+            typeSpeed : 150,
+            backSpeed : 50,
+            loop: true,
+        })
+    </script>
+    <!-- script js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
