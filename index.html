@@ -57,7 +57,7 @@
         <div class="loader"></div>
     </section>
     <!-- lottie script -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    <script src="js/lottie.min.js"></script>
     <!-- typed script -->
     <script src="js/typed.umd.js"></script>
     <!-- typed script -->
@@ -67,6 +67,13 @@
             typeSpeed : 150,
             backSpeed : 50,
             loop: true,
+        })
+        let animation = bodymovin.loadAnimation({
+            container: document.getElementsByClassName("right")[0],
+            render: "svg",
+            loop: true,
+            autoplay: true,
+            path: "../json/Animation - 1721822021638.json"
         })
     </script>
     <!-- script js -->
